@@ -9,7 +9,7 @@ export default function Home() {
           안녕하세요, 선주입니다. 👋
         </h1>
         <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl mx-auto">
-          사용자에게 닿는 즐거움을 만드는 <strong>프론트엔드 개발자</strong>입니다.
+          사용자에게 닿는 즐거움을 만드는 <strong>fULL STACK 개발자</strong>입니다.
           <br />
           코드 너머의 일상에서는 <strong>빈티지 디카</strong>를 수집하고,
           <br />
