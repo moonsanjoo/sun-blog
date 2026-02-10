@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl text-zinc-800 dark:text-zinc-100">
           안녕하세요, <br className="sm:hidden" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">
-            San
+            선주
           </span>
           입니다.
         </h1>
@@ -47,34 +47,50 @@ export default function Home() {
         </div>
 
         <div className="grid gap-5">
-          {/* 카드 1 */}
-          <Link href="/blog/axios-to-ky-migration" className="group">
+          {/* 카드 1: SQLD */}
+          <Link href="/blog/sqld-review" className="group">
             <article className="p-6 rounded-2xl bg-white/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-                Axios? 이제 Ky 씁니다
+                SQLD 1주일 합격 후기 벼락치기 공부법
               </h3>
               <p className="text-zinc-500 dark:text-zinc-400 line-clamp-2">
-                3KB짜리 Fetch 래퍼로 HTTP 클라이언트 교체한 후기.
+                노베이스도 가능! 기출문제 위주로 핵심만 파고들어 1주일 만에 SQL 개발자 자격증 취득한 꿀팁 정리.
               </p>
               <div className="mt-3 flex items-center gap-2 text-xs text-zinc-400">
-                <span className="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 px-2 py-0.5 rounded">Frontend</span>
-                <span>2025. 11. 03</span>
+                <span className="bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300 px-2 py-0.5 rounded">Database</span>
+                <span>2024. 03. 15</span>
               </div>
             </article>
           </Link>
 
-          {/* 카드 2 */}
-          <Link href="/blog/keycloak-auth" className="group">
+          {/* 카드 2: ADsP */}
+          <Link href="/blog/adsp-review" className="group">
             <article className="p-6 rounded-2xl bg-white/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-                React SPA에서 Keycloak 인증 구현하기
+                ADsP 3일 컷! 비전공자 합격 전략
               </h3>
               <p className="text-zinc-500 dark:text-zinc-400 line-clamp-2">
-                로그인 깜빡임 없이 매끄러운 UX를 만드는 법.
+                데이터 분석 준전문가, 정말 3일 만에 가능할까? 민트책 한 권으로 끝내는 효율적인 암기 패턴 공유.
               </p>
               <div className="mt-3 flex items-center gap-2 text-xs text-zinc-400">
-                <span className="bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 px-2 py-0.5 rounded">Security</span>
-                <span>2026. 01. 18</span>
+                <span className="bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 px-2 py-0.5 rounded">Data</span>
+                <span>2024. 05. 20</span>
+              </div>
+            </article>
+          </Link>
+
+          {/* 카드 3: 정처기 */}
+          <Link href="/blog/eip-review" className="group">
+            <article className="p-6 rounded-2xl bg-white/50 dark:bg-zinc-900/50 border border-zinc-200 dark:border-zinc-800 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
+                정보처리기사 필기 3일 합격 후기
+              </h3>
+              <p className="text-zinc-500 dark:text-zinc-400 line-clamp-2">
+                방대한 양에 겁먹지 마세요. 자주 나오는 개념만 쏙쏙 골라 3일 만에 필기 합격한 노하우.
+              </p>
+              <div className="mt-3 flex items-center gap-2 text-xs text-zinc-400">
+                <span className="bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300 px-2 py-0.5 rounded">Certification</span>
+                <span>2024. 02. 10</span>
               </div>
             </article>
           </Link>
