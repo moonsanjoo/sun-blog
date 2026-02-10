@@ -19,11 +19,11 @@ export default function Home() {
         {/* 소셜/연락처 버튼들 */}
         <div className="flex justify-center gap-4 pt-4">
           <Link
-            href="https://github.com/chahyunwoo" 
+            href="https://blog.naver.com/elseifmoon" 
             target="_blank"
-            className="px-4 py-2 text-sm font-medium rounded-full bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 transition-colors"
+            className="px-4 py-2 text-sm font-medium rounded-full bg-green-50 text-green-700 hover:bg-green-100 dark:bg-green-950/30 dark:text-green-400 dark:hover:bg-green-900/50 transition-colors"
           >
-            GitHub
+            Naver Blog 🟩
           </Link>
           <Link
             href="/guestbook"
@@ -88,7 +88,7 @@ export default function Home() {
           <span className="text-2xl mb-2 block">📷</span>
           <h3 className="font-bold text-orange-900 dark:text-orange-100 mb-1">Vintage Cam</h3>
           <p className="text-sm text-orange-700 dark:text-orange-300">
-            Canon IXUS, Leica V-Lux20, RIHCO... <br/>저의 수집품을 소개할게요.
+            Canon IXUS, Leica V-Lux20, RICOH... <br/>저의 수집품을 소개할게요.
           </p>
         </div>
         <div className="p-6 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-100 dark:border-emerald-900/50">
